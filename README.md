@@ -15,7 +15,7 @@ Steps to build the BL for Hifive 1B. (Note: The LED is used for Sparkfun RedV Th
 3. clone this repository
 4. cd to root directory of cyancore
 5. run `make list`
-6. run `make hifive1b_bootloader`
+6. run `make hifive1b_bootloader`, Note: Toolchain is necessary to build, please refer [wiki](https://github.com/VisorFolks/cyancore/wiki)
 7. Flash using Ozone (Segger), use .bin/.hex to flash.
 
 ![Bootloader](https://raw.githubusercontent.com/VisorFolks/vf_artifacts/stable/cyancore/images/misc/hifive1b_bootloader.png)
