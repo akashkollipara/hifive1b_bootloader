@@ -55,8 +55,3 @@ void no_program()
 		arch_wfi();
 }
 
-void play()
-{
-	return;
-}
-
