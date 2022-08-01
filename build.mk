@@ -11,11 +11,11 @@
 
 PROJECT_DIR	:= $(GET_PATH)
 
-OPTIMIZATION	:= s
-
-EXE_MODE	:= terravisor
+USE_DEFAULT_RESOURCES	:= 0
 
 include $(PROJECT_DIR)/config.mk
+include $(PROJECT_DIR)/resources/build.mk
+include $(PROJECT_DIR)/../bl.src/build.mk
 
 DIR		:= $(PROJECT_DIR)
 include mk/obj.mk

@@ -1,4 +1,4 @@
-# hifive1b_bootloader
+# hifive1b_bootloader [RED-V]
 _A bootloader for SiFive HiFive 1B based on cyancore_
 
 This bootloader is used to reset clock and give a 2 sec delay before booting to the application code.

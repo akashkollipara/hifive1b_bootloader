@@ -1,6 +1,6 @@
 #
 # CYANCORE LICENSE
-# Copyrights (C) 2022, Cyancore Team
+# Copyrights (C) 2019, Cyancore Team
 #
 # File Name		: config.mk
 # Description		: This file consists of project config
@@ -9,9 +9,11 @@
 #
 
 COMPILER	:= gcc
-TC_VER		:= 8.2.0
+TC_VER		:= 10.2.0
 FAMILY		:= sifive
 PLATFORM	:= fe310g002-bl
 STDLOG_MEMBUF	:= 0
-BOOTMSGS        := 0
+BOOTMSGS        := 1
 EARLYCON_SERIAL	:= 1
+CONSOLE_SERIAL	:= 0
+OBRDLED_ENABLE	:= 1
